@@ -9,7 +9,7 @@ client.on('ready', () => {
   console.log('              Bot Is Online')
   console.log('            ╚[════════════]╝')
   console.log('')
-  console.log(Logged in as ${client.user.tag}!);
+  console.log(Logged! ${client.user.tag}!);
   console.log('')
   console.log(servers! [ " ${client.guilds.size} " ]);
   console.log('')
