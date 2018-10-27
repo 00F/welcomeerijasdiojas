@@ -1,7 +1,6 @@
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 const client = new Discord.Client();
-const prefix = '-'
 client.on('ready', () => {
   console.log('╔[════════════════════════════════════]╗');
   console.log('')
@@ -9,11 +8,11 @@ client.on('ready', () => {
   console.log('              Bot Is Online')
   console.log('            ╚[════════════]╝')
   console.log('')
-  console.log(Logged! ${client.user.tag}!);
+  console.log('Logged! ${client.user.tag}!');
   console.log('')
-  console.log(servers! [ " ${client.guilds.size} " ]);
+  console.log(' servers! [ " ${client.guilds.size} " ]');
   console.log('')
-  console.log(Users! [ " ${client.users.size} " ]);
+  console.log('Users! [ " ${client.users.size} " ]');
   console.log('')
   console.log('╚[════════════════════════════════════]╝')
 });
@@ -39,10 +38,10 @@ client.on('ready', () => {
 'Welcome To **NoThing**'
 ]
 client.on('guildMemberAdd', member => {
-const F5R = member.guild.channels.get("481277680109486110");//ايدي الشات
-if(!F5R) return;
-if(F5R) {
-F5R.send(  ${lol[Math.floor(Math.random() * lol.length)]});
+const NOTHING = member.guild.channels.get("481277680109486110");//ايدي الشات
+if(!NOTHING) return;
+if(NOTHING) {
+NOTHING.send(  ${lol[Math.floor(Math.random() * lol.length)]});
 }
 });
 
